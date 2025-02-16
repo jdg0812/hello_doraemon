@@ -1,0 +1,223 @@
+div {
+    position: absolute;
+}
+
+
+.main {
+    width: 700px;
+    height: 400px;
+    background-color: lightblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.head {
+    width: 250px;
+    height: 225px;
+    background-color: blue;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 45%;
+
+}
+
+.face {
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 45%;
+}
+
+
+.nose {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+}
+
+.eyes {
+    width: 50px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    top: -5%;
+}
+
+.pupil-left {
+    background-color: black;
+    height: 32px;
+    width: 27px;
+    border-radius: 50%;
+    bottom: 15%;
+    left: 5%;
+}
+
+.pupil-right {
+    background-color: black;
+    height: 32px;
+    width: 27px;
+    border-radius: 50%;
+    bottom: 15%;
+    right: 5%;
+}
+
+.left {
+    left: 22%;
+}
+
+.right {
+    right: 22%;
+}
+
+.mouth {
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 0 0 150px 150px;
+}
+
+.tongue {
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 45%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+
+.body {
+    width: 215px;
+    height: 200px;
+    background-color: blue;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px 50px 45px 45px;
+}
+
+.collar {
+    background-color: red;
+    width: 180px;
+    height: 15px;
+    left: 20px;
+    border-radius: 10% 10% 20% 20%;
+}
+
+.bell {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    border-radius: 50%;
+}
+
+.tummy {
+    background-color: white;
+    height: 145px;
+    width: 170px;
+    border-radius: 45% 45% 50% 50%;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.pocket {
+    background-color: white;
+    border: solid black 2px;
+    height: 60px;
+    width: 125px;
+    border-radius: 0 0 75px 75px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+
+
+}
+
+
+.arm-left {
+    background-color: blue;
+    height: 200px;
+    width: 60px;
+    transform: translate(-100px, -80px) rotate(-40deg);
+    border-radius: 75% 75% 0% 0%;
+    left: 25%;
+}
+
+.hand {
+    height: 50px;
+    width: 55px;
+    background-color: white;
+    border-radius: 40%;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.arm-right {
+    background-color: blue;
+    height: 150px;
+    width: 50px;
+    transform: translate(90px, 0px) rotate(135deg);
+    border-radius: 75% 75% 0% 0%;
+    right: 25%;
+}
+
+.leg-left {
+    background-color: blue;
+    height: 70px;
+    width: 90px;
+    bottom: -20%;
+    left: 2%;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.leg-right {
+    background-color: blue;
+    height: 70px;
+    width: 90px;
+    bottom: -20%;
+    right: 2%;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.foot {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10% 10% 50% 50%;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid black 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
